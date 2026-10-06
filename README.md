@@ -12,7 +12,8 @@ Then open http://localhost:5173.
 
 ## Included
 
-- UTF-8 message encryption and authenticated decryption
+- One-click UTF-8 encryption with automatic authenticated decryption
+- Automatic verification when pasting ciphertext or changing its passphrase
 - Fresh random 128-bit nonce per encryption
 - PBKDF2-SHA-256 (100,000 iterations) derives 64 bytes from the passphrase
 - Logistic map (r = 3.99), 1,000 warm-up iterations, two steps per byte
