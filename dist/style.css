@@ -16,3 +16,5 @@ button:focus-visible,a:focus-visible{outline-color:var(--accent)}
 .verification.success,.badge.done{color:var(--success)}.recovered.success{border-left:2px solid #80bba8;padding-left:14px;margin-top:14px;padding-top:0}
 .big-stat{color:var(--accent)}.metrics strong{color:#2d426b}.formula{color:var(--accent)}.steps b{color:var(--accent)}code{color:#4964a3}th{color:#53698f}tbody tr:hover{background:#f4f6fc}.educational{color:#738097}
 @media(prefers-reduced-motion:no-preference){button,a{transition:color .15s,background-color .15s,box-shadow .15s,transform .15s}input,textarea{transition:border-color .15s,box-shadow .15s}}
+
+.visibility-toggle{display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;padding:0;border-radius:6px;margin:-6px 0;color:#69758a}.visibility-toggle:hover{background:var(--accent-soft);color:var(--accent)}.visibility-icon{display:block;width:20px;height:20px;margin:0;flex:none}
